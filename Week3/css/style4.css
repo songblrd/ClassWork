@@ -1,0 +1,29 @@
+h1 {
+    border: 1px solid red;
+    margin-right: 100px;
+}
+
+img {
+   max-width: 30%;
+}
+
+a:hover {
+    color: blueviolet;
+    font-weight: bolder;
+}
+
+a:focus {
+    background-color: aquamarine;
+}
+
+a:active {
+    border: 1px solid green
+}
+
+a:visited {
+    color: red;
+}
+
+video {
+    max-width: 50%;
+}
