@@ -1,0 +1,28 @@
+body {
+    width: 1200px;
+}
+
+
+main {
+    width: 800px;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 20px;
+    float: left;
+}
+
+#a {
+    width: 500px;
+    border: 1px solid black;
+    margin: 15px;
+    padding: 20px;
+    float: left;
+}
+
+#b {
+    width: 196px;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 10px;
+    float: left;
+}

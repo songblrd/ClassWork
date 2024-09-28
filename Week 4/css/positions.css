@@ -1,0 +1,40 @@
+h1 {
+    margin: 0px;
+    padding: 10px;
+    background-color: mediumaquamarine;
+}
+
+h2 {
+    margin: 0px;
+    padding: 20px;
+    background-color: mediumblue;
+    position: static;
+}
+
+h3 {
+    margin: 0px;
+    padding: 10px;
+    background-color: mediumorchid;
+    position: relative;
+    bottom: 50px;
+    left: 100px;
+    z-index: 67;
+}
+
+h4 {
+    margin: 0px;
+    padding: 10px;
+    background-color: mediumpurple;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 100px;
+}
+
+h5 {
+    margin: 0px;
+    padding: 10px;
+    background-color: mediumseagreen;
+    position: sticky;
+}
+

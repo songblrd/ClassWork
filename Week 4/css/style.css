@@ -1,0 +1,47 @@
+h1 {
+    margin: 0px;
+    padding: 10px;
+}
+
+nav{
+    background-color: aliceblue;
+}
+
+main {
+    width: 70%;
+    background-color:aqua;
+    float: left;
+}
+
+aside {
+    background-color: aquamarine;
+    width: 30%;
+    float: right;
+}
+footer {
+    background-color: blue;
+    clear: both;
+}
+
+#a {
+    background-color: brown;
+    width:30%;
+    float: left;
+}
+
+#b {
+    background-color: chartreuse;
+    width: 50%;
+    float: left;
+}
+
+#c {
+    background-color: cornflowerblue;
+    width: 20%;
+    float: left
+}
+
+#d {
+    background-color: goldenrod;
+    clear: left;
+}

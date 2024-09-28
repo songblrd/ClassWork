@@ -1,0 +1,37 @@
+body {
+    width: 1200px;
+    margin: auto;
+}
+
+header {
+    background-color: black;
+    margin: 1px;
+    padding: 40px;
+    background-color: rgb (80, 75, 75);
+    text-align: center;
+    color: white;
+
+}
+
+
+header nav a {
+    text-align: center;
+    color: gray;
+    font-size: large;
+    margin: 0px 20px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+a:hover {
+    color: white;
+}
+
+#skills {
+    width: 400px;
+    background-color: grey;
+}
+
+img {
+    width: 400px
+}
