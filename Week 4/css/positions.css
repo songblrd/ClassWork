@@ -2,6 +2,9 @@ h1 {
     margin: 0px;
     padding: 10px;
     background-color: mediumaquamarine;
+    position: absolute;
+    right: 0px;
+    top: 300px;
 }
 
 h2 {
@@ -36,5 +39,6 @@ h5 {
     padding: 10px;
     background-color: mediumseagreen;
     position: sticky;
+    right: 20px;
 }
 
