@@ -12,7 +12,9 @@ header {
     color: white;
 
 }
-
+.main {
+    position: relative;
+}
 
 header nav a {
     text-align: center;
@@ -32,6 +34,63 @@ a:hover {
     background-color: grey;
 }
 
-img {
+#person {
     width: 400px
+}
+
+video {
+    width: 50%;
+}
+
+#homeland {
+    width: 400px;
+}
+
+figure img {
+    width: 100%;
+}
+
+#projects figure {
+    padding: 0px;
+    width: 350px;
+    position: relative;
+    float: left;
+    margin: 15px;
+}
+
+h3 {
+    clear: both;
+}
+
+#projects figure figcaption {
+    position: absolute;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+    padding:10px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px
+}
+
+#projects2 figure {
+    padding: 0px;
+    width: 350px;
+    position: relative;
+    float: left;
+    margin: 15px;
+}
+
+
+#projects2 figure figcaption {
+    position: absolute;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+    padding:10px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px
 }
