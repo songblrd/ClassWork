@@ -1,0 +1,63 @@
+body {
+    width: 1000px;
+    margin: auto;
+    border: 2px solid black;
+}
+
+.structural {
+    padding: 20px;
+    border: 2px solid black;
+    margin: 15px;
+}
+
+header {
+    background-color: antiquewhite;
+}
+
+#sidebarleft {
+    background-color: aquamarine;
+    float: left;
+    height: 600px;
+    width: 200px;
+    margin: 10px;
+    background-image: linear-gradient(blue 20%, orange 70%);
+}
+
+nav {
+    background-color: aqua;
+    clear: left;
+    padding: 10px;
+    position: sticky;
+    margin: 0px;
+}
+
+main {
+    background-color: beige;
+    width: 350px;
+    height: 600px;
+    position: relative;
+    top: 10px;
+    left: 300px;
+    right: 50px;
+}
+
+footer {
+    background-color: bisque;
+}
+
+#sidebarright {
+    background-color: aquamarine;
+    float: right;
+    width: 200px;
+    height: 600px;
+    margin: 10px;
+    background-image: url(images\images.jpg);
+}
+
+a:hover {
+    color: rgb(255, 238, 0);
+}
+
+footer {
+    box-shadow: 10px 5px #0023be;
+}

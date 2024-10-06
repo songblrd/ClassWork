@@ -94,3 +94,28 @@ h3 {
     left: 0px;
     right: 0px
 }
+
+main table {
+    margin: 0px 150px;
+    width: 896px;
+    table-layout: fixed;
+}
+
+main table, td, th {
+    border: 2px solid silver;
+    border-collapse: collapse;
+}
+
+main table th, td {
+    padding: 20px 10px;
+}
+
+main table th {
+    text-align: left;
+    background-color: gray;
+}
+
+main table tbody tr td:nth-child(2) {
+    color: yellow;
+    font-size: 1.5em;
+}
