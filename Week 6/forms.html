@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <form name="myform" action="" method="post">
+        <fieldset>
+        <legend>contact us</legend>
+        <div>
+            <label>
+                Name:
+                <input type="text" id="fn"  name="fnn" placeholder="Enter first name" required />
+            </label>
+        </div>
+        <div>
+            <label>Password</label>
+            <input type="password" id="pw"  name="pwn" />
+        </div>
+        <div>
+            <input type="hidden" id="hdi" name="hdn" value="secretkey" />
+        </div>
+        <div>
+            <label>pissa</label>
+            <input type="checkbox" id="c1" name="c1n"/>
+        </div>
+        <div>
+            <label>pista</label>
+            <input type="checkbox" id="c1" name="c1n" checked/>
+        </div>
+        <div>
+            <label>pissas</label>
+            <input type="checkbox" id="c1" name="c1n"/>
+        </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>select color</legend>
+            <div>
+                <input type="radio" id="r1" name="rnm" checked>
+                <label>Red</label>
+            </div>
+            <div>
+                <input type="radio" id="r2" name="rnm">
+                <label>Blue</label>
+            </div>
+            <div>
+                <input type="radio" id="r3" name="rnm">
+                <label>That tasted purple!</label>
+            </div>
+            <div>
+                <label>Select a car</label>
+                <select name="sname">
+                    <option value="toyota">toyota</option>
+                    <option value="honda">honda</option>
+                    <option value="max verstappen">MAX VERSTAPPEN</option>
+                </select>
+                <select name="sname1">
+                    <optgroup name="Truck">
+                        <option value="truck 1">Truck 1</option>
+                        <option value="truck 2">Truck 2</option>
+                        <option value="turck 3">Truck 3</option>
+                    </optgroup>
+                </select>
+                <select name="sname3">
+                    <optgroup>
+                     <option value="toyota">toyota</option>
+                     <option value="honda">honda</option>
+                     <option value="max verstappen">MAX VERSTAPPEN</option>
+                    </optgroup>
+                </select>
+            </div>
+            <div>
+                <label>Enter message</label>
+                <textarea rows="4" cols="10">Write here</textarea>
+            </div>
+            <div>
+                <input type="button" value="button">
+                <input type="submit" value="submit">
+                <input type="reset"  value="NUKE">
+            </div>
+            <div>
+                <label>email</label>
+                <input type="email" id="emid" name="emn"/>
+            </div>
+            <div>
+                <label>Date and time</label>
+                <input type="date" id="did" name="dnm"/>
+                <input type="time" id="tid" name="tnm"/>
+                <input type="color" id="cid" name="cnm"/>           
+            </div>
+            <div>
+                <label>Slider and num field</label>
+                <input type="number" id="numid" name="numnm" step="0.5" min="0" max="1000"/>
+                <input type="range" min="10" max="100" step="5"/>
+            </div>
+
+            <div>
+                <label>file submit and url</label>
+                <input type="file" id="fid" name="fnm" accept="image/*"/>
+                <input type="url" id="uid" name="uid">
+            </div>
+        </fieldset>
+
+   
+     </form>
+</body>
+</html>
