@@ -1,0 +1,45 @@
+main{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 0px;
+    grid-template-areas: 
+    "hd hd hd hd hd hd"
+    "n1 n2 n2 n3 n3"
+    "mn mn mn as as as"
+    "mn mn mn ft ft ft";
+}
+
+main h1{
+    border: 1px solid black;
+    text-align: center;
+    margin: 0px;
+    padding: 5px;
+}
+
+main h1:nth-child(1){
+    grid-area: hd;
+}
+
+main h1:nth-child(2){
+    grid-area: n1;
+}
+
+main h1:nth-child(3){
+    grid-area: n2;
+}
+
+main h1:nth-child(4){
+    grid-area: n3;
+}
+
+main h1:nth-child(5){
+    grid-area: nm;
+}
+
+main h1:nth-child(6){
+    grid-area: as;
+}
+
+main h1:nth-child(7){
+    grid-area: ft;
+}
