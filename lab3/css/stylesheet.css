@@ -1,0 +1,139 @@
+body {
+    width: 1000px;
+    margin: auto;
+}
+
+nav {
+    background-color: cornflowerblue;
+    padding: 1px;
+}
+
+nav li {
+    display: inline;
+    position: relative;
+    left: 400px;
+    right: 200px;
+    padding: 5px;
+}
+
+
+nav li a {
+   text-decoration: none;
+   border: 2px solid indigo;
+   background-color: cornsilk;
+   color: indigo;
+   padding: 5px;
+}
+
+nav li a:hover {
+    border: 2px solid cornsilk;
+    color: cornsilk;
+    background-color: indigo;
+}
+
+h2 {
+    color: yellow;
+}
+
+main {
+    width: 400px;
+    background-color: lightblue;
+    margin: 15px;
+}
+
+aside {
+    width: 500px;
+    position: relative;
+    left: 450px;
+    bottom: 670px;
+    height: 500px;
+    background-color: gray;
+    margin: 15px;
+}
+
+h3 {
+    color: yellow;
+}
+
+h1 {
+    color: yellow;
+}
+
+form {
+    border: 5px dashed blue;
+    padding: 5px;
+}
+
+form fieldset text {
+    width: 50%;
+    display: block;
+    height: 2em;
+}
+
+form fieldset select {
+    width: 50%;
+    display: block;
+    height: 2em;
+}
+
+form fieldset email {
+    width: 50%;
+    display: block;
+    height: 2em;
+}
+
+form fieldset submit {
+    width: 50%;
+    display: block;
+    height: 2em;
+}
+
+form fieldset option {
+    width: 50%;
+    display: block;
+    height: 2em;
+}
+
+form input radio {
+    height: 2em;
+    width: 2em;
+}
+
+select {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+option {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+legend {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+textarea {
+    width: 50%;
+    display: block;
+}
+
+fieldset {
+    border: none;
+}
+
+footer {
+    background-color: lightblue;
+    position: relative;
+    bottom: 500px;
+}
+
+footer p {
+    position: relative;
+    left: 400px;
+    right: 200px;
+}

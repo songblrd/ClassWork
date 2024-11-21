@@ -23,12 +23,15 @@ header {
     background-image: linear-gradient(blue 20%, orange 70%);
 }
 
-nav {
-    background-color: aqua;
+nav li a {
     clear: left;
     padding: 10px;
-    position: sticky;
     margin: 0px;
+    display: inline;
+    text-decoration: none;
+    border: 2px solid indigo;
+    background-color: cornsilk;
+
 }
 
 main {
