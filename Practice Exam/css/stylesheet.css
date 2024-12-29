@@ -1,0 +1,90 @@
+body {
+    width: 1100px;
+    margin: auto;
+}
+
+header figure img {
+    width: 10%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+header h1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    background-color: lightgray;
+    margin: 5px;
+}
+
+nav a {
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: gray;
+    color: white;
+}
+
+section {
+    width: 100%;
+    position: relative;
+}
+
+section figure img {
+    width: 100%;
+    z-index: -99;
+}
+
+section > div h1 {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    color: white;
+    margin: 0px;
+    background-image: linear-gradient(90deg, rgb(222, 184 , 135), rgba(0,0,0,0));
+}
+
+main {
+    position: relative;
+    right: 45px;
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1px;
+}
+
+main > figure img {
+  width: 120%;
+}
+
+aside {
+    position: relative;
+    left: 750px;
+    right: 50px;
+    bottom: 650px;
+}
+
+table, th, td, tr {
+    width: 30%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    margin: 10px;
+}
+
+
+
